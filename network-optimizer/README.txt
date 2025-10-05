@@ -1,11 +1,24 @@
-Project: Network Cost Optimizer
+# Network Cost Optimizer (C)
 
-Build in Code::Blocks:
-1. Create new Console Application (C).
-2. Add all files in src/ to the project.
-3. Set project working directory to the project root.
-4. Build the project.
-5. To run with sample input: open a command prompt in project root and run:
-   netopt.exe sample_inputs\sample_graph.txt < sample_inputs\sample_graph_input.txt
+A command-line **C project** that optimizes network deployment cost by computing **Minimum Spanning Trees (MST)** and **shortest paths** in weighted graphs. Supports **timing experiments**, path reconstruction, and optional graph visualizations.
 
-See run_experiments.bat for automated experiment runs (requires gen_graph.exe and netopt.exe built).
+---
+
+## Features
+
+- **Minimum Spanning Tree (MST)** using **Kruskal + Union-Find**
+- **Shortest Path Calculation** using **Dijkstra’s algorithm** with min-heap
+- Console output for:
+  - MST edges and total cost  
+  - Shortest distances from a user-specified source  
+  - Optional path to a target node  
+- **Timing measurement** for MST and Dijkstra algorithms  
+- Optional **graph visualization** (DOT + PDF):
+  - MST edges (red)  
+  - Shortest path edges (blue)  
+  - Source node (green, labeled S)  
+  - Target node (orange, labeled T)  
+- Random **graph generator** for testing and experiments  
+- Experiment scripts to measure algorithm scaling  
+
+---
