@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1759674672 source:c:\users\harsh narodey\desktop\projects harsh\aoa project\network-optimizer\src\dijkstra.c
+	"dijkstra.h"
+	<stdlib.h>
+	<limits.h>
+
+1759674662 c:\users\harsh narodey\desktop\projects harsh\aoa project\network-optimizer\src\dijkstra.h
+	"graph.h"
+
+1759674583 c:\users\harsh narodey\desktop\projects harsh\aoa project\network-optimizer\src\graph.h
+	<stddef.h>
+
+1759674685 source:c:\users\harsh narodey\desktop\projects harsh\aoa project\network-optimizer\src\gen_graph.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1759674593 source:c:\users\harsh narodey\desktop\projects harsh\aoa project\network-optimizer\src\graph.c
+	"graph.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1759680689 source:c:\users\harsh narodey\desktop\projects harsh\aoa project\network-optimizer\src\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<limits.h>
+	<string.h>
+	<windows.h>
+	"graph.h"
+	"mst.h"
+	"dijkstra.h"
+	"graphviz.h"
+
+1759674635 c:\users\harsh narodey\desktop\projects harsh\aoa project\network-optimizer\src\mst.h
+	"graph.h"
+
+1759674648 source:c:\users\harsh narodey\desktop\projects harsh\aoa project\network-optimizer\src\mst.c
+	"mst.h"
+	"unionfind.h"
+	<stdlib.h>
+	<string.h>
+
+1759674611 c:\users\harsh narodey\desktop\projects harsh\aoa project\network-optimizer\src\unionfind.h
+
+1759674622 source:c:\users\harsh narodey\desktop\projects harsh\aoa project\network-optimizer\src\unionfind.c
+	"unionfind.h"
+	<stdlib.h>
+
+1759681437 source:c:\users\harsh narodey\desktop\projects harsh\aoa project\network-optimizer\src\graphviz.c
+	"graphviz.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1759680515 c:\users\harsh narodey\desktop\projects harsh\aoa project\network-optimizer\src\graphviz.h
+	"graph.h"
+

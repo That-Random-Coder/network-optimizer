@@ -1,0 +1,29 @@
+graph Network {
+  rankdir=LR;
+  splines=true;
+  overlap=false;
+  node [shape=circle, style=filled, fillcolor=white, fontname="Arial", fontsize=12];
+
+  /* nodes */
+  1 [label="1"];
+  2 [label="2"];
+  3 [label="3"];
+  4 [label="4"];
+  5 [label="5"];
+
+  /* edges: format u -- v [label="w", penwidth=X, color=...]; */
+
+  /* MST edges (highlighted red, thicker) */
+  2 -- 3 [label="5", penwidth=3, color="red"];
+  3 -- 5 [label="8", penwidth=3, color="red"];
+  1 -- 2 [label="10", penwidth=3, color="red"];
+  4 -- 5 [label="12", penwidth=3, color="red"];
+
+  /* Shortest path 1->4 highlighted in blue (path uses 1-2 and 2-4).
+     1-2 is already in MST (red). 2-4 is not in MST so color blue for path edge. */
+  2 -- 4 [label="15", penwidth=3, color="blue"];
+
+  /* remaining edges (gray, thin) */
+  1 -- 3 [label="20", penwidth=1, color="gray70"];
+  3 -- 4 [label="30", penwidth=1, color="gray70"];
+}
